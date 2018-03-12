@@ -30,19 +30,19 @@ make
 Sample Execution
 ----------------
 
-./bin/debug/Solver inputs/max2.sl
+./bin/debug/Solver  inputs/max2.sl
 
 ------
 Output
 ------
 
-Distinct Counter Example Points generated are: 
-x = 1 y = 1 
-x = -1 y = 0 
-x = 0 y = 0 
-x = -1 y = -1 
-x = -2 y = -2 
-x = 2 y = 0 
+Distinct Counter Example Points generated are: <br />
+x = 1 y = 1 <br />
+x = -1 y = 0 <br />
+x = 0 y = 0 <br />
+x = -1 y = -1 <br />
+x = -2 y = -2 <br />
+x = 2 y = 0 <br />
 
 Hurray! Synthesized Expression is: (ite (<= y x) x y)
 
